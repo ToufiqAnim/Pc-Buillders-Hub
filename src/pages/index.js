@@ -2,11 +2,16 @@ import Head from "next/head";
 import { useSession } from "next-auth/react";
 import { Row } from "antd";
 import ProductCard from "@/components/UI/ProductCard";
+import FeaturedCategory from "@/components/UI/FeaturedCategory";
 const HomePage = ({ products, allProducts }) => {
   const { data: session } = useSession();
   return (
     <div className="container mx-auto ">
+      <div className="px-4">
+        <FeaturedCategory />
+      </div>
       <h1 className=" my-4">Featured Products</h1>
+
       <Row
         gutter={{
           xs: 8,
