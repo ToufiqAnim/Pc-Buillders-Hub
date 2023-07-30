@@ -1,0 +1,504 @@
+[
+  {
+    "productName": "AMD Ryzen 9 5950X",
+    "category": "CPU",
+    "status": "In Stock",
+    "price": 62500,
+    "description": "High-performance 16-core processor for gaming and productivity.",
+    "image": "https://i.ibb.co/HDXrr1H/ryzen-9-2.jpg",
+    "keyFeatures": {
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "specification": "16 cores, 32 threads",
+      "socket": "AM4",
+      "clockSpeed": "4.9 GHz",
+      "cache": "64MB",
+      "TDP": "105W"
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      { "rating": 5, "review": "Excellent processor, very powerful." },
+      { "rating": 4.8, "review": "Great for multitasking and gaming." }
+    ]
+  },
+  {
+    "productName": "ZOTAC GAMING GeForce RTX 3090",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 185000,
+    "description": "Flagship graphics card for extreme gaming and content creation.",
+    "image": "https://i.ibb.co/cYJ6KRz/zotac-rtx-3090-trinity-oc-graphics-card-4.jpg",
+    "keyFeatures": {
+      "brand": "NVIDIA",
+      "model": "GeForce RTX 3090",
+      "memory": "24GB GDDR6X",
+      "interface": "PCIe 4.0",
+      "clockSpeed": "1695 MHz",
+      "TDP": "350W"
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      { "rating": 4.5, "review": "Powerful GPU, but a bit expensive." },
+      { "rating": 5, "review": "Impressive performance for 4K gaming." }
+    ]
+  },
+  {
+    "productName": "G.SKILL Trident Z5 RGB 32GB (2 X 16GB) DDR5 5600MHz Desktop RAM",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 16000,
+    "description": "High-performance RGB DDR5 memory with stunning aesthetics.",
+    "image": "https://i.ibb.co/YWV4q2h/gskill-trident-z5-rgb-32gb-ddr5-5600mhz-ram-1.jpg",
+    "keyFeatures": {
+      "brand": "G.SKILL",
+      "model": "Trident Z RGB",
+      "capacity": "32GB (2x16GB)",
+      "speed": "5600MHz",
+      "CASLatency": "16",
+      "memoryType": "DDR5"
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 5, "review": "Beautiful RGB effects and fast performance." },
+      { "rating": 4.5, "review": "Works well, but a bit pricey." }
+    ]
+  },
+  {
+    "productName": "MSI MPG X570 Gaming Edge WiFi",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 20500,
+    "description": "Feature-rich gaming motherboard with built-in WiFi.",
+    "image": "https://i.ibb.co/YTbtBRB/msi-mpg-x570-gaming-edge-wifi-motherboard-review.png",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MPG X570 Gaming Edge WiFi",
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "RAMSlots": 4,
+      "maxMemory": "128GB",
+      "PCIeSlots": 3,
+      "M2Slots": 2
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      {
+        "rating": 4.8,
+        "review": "Good build quality and reliable performance."
+      },
+      { "rating": 4.6, "review": "WiFi connectivity could be better." }
+    ]
+  },
+
+  {
+    "productName": "Corsair RM750x",
+    "category": "Power Supply",
+    "status": "In Stock",
+    "price": 13700,
+    "description": "High-quality modular power supply with 750W capacity.",
+    "image": "https://i.ibb.co/mbZm2y2/corsair-RM750x-PSU-01-min.jpg",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "RM750x",
+      "wattage": "750W",
+      "certification": "80 PLUS Gold",
+      "modular": true
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 4.7, "review": "Reliable power supply with low noise." },
+      { "rating": 5, "review": "Great modular design and efficient." }
+    ]
+  },
+  {
+    "productName": "NZXT Kraken X63",
+    "category": "CPU Cooler",
+    "status": "In Stock",
+    "price": 16999,
+    "description": "AIO liquid cooler with RGB lighting and superior cooling performance.",
+    "image": "https://i.ibb.co/F61g5Sp/nzxt-kraken-z63-rgb-cpu-liquid-cooler-1.jpg",
+    "keyFeatures": {
+      "brand": "NZXT",
+      "model": "Kraken X63",
+      "fanSize": "280mm",
+      "pumpSpeed": "800 - 2800 RPM",
+      "noiseLevel": "22 - 36 dBA"
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.9, "review": "Keeps CPU cool and looks great with RGB." },
+      { "rating": 4.5, "review": "Installation was a bit tricky." }
+    ]
+  },
+  {
+    "productName": "Phanteks Eclipse P400A",
+    "category": "Case",
+    "status": "In Stock",
+    "price": 6800,
+    "description": "Stylish mid-tower case with excellent airflow and cable management.",
+    "image": "https://i.ibb.co/qmfPWrW/phanteks-eclipse-p400a-case-1.jpg",
+    "keyFeatures": {
+      "brand": "Phanteks",
+      "model": "Eclipse P400A",
+      "formFactor": "ATX Mid Tower",
+      "sidePanel": "Tempered Glass",
+      "fansIncluded": "3x 120mm RGB",
+      "maxGPUSize": "420mm",
+      "maxCoolerHeight": "160mm"
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 4.8, "review": "Good airflow and easy cable management." },
+      { "rating": 5, "review": "Stylish design and sturdy build quality." }
+    ]
+  },
+  {
+    "productName": "LG 27GL850-B",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 58500,
+    "description": "27-inch QHD gaming monitor with 144Hz refresh rate and 1ms response time.",
+    "image": "https://i.ibb.co/h29pSB7/27gl850-b-3-500x500.jpg",
+    "keyFeatures": {
+      "brand": "LG",
+      "model": "27GL850-B",
+      "displaySize": "27 inches",
+      "resolution": "2560x1440",
+      "refreshRate": "144Hz",
+      "responseTime": "1ms",
+      "panelType": "Nano IPS"
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      { "rating": 5, "review": "Vibrant colors and smooth gaming experience." },
+      {
+        "rating": 4.7,
+        "review": "Expensive but worth the price for the quality."
+      }
+    ]
+  },
+  {
+    "productName": "Corsair K95 RGB Platinum XT",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 16500,
+    "description": "Mechanical gaming keyboard with RGB lighting and Cherry MX switches.",
+    "image": "https://i.ibb.co/R90j6Qh/corsair-k95-rgb-1-jpg-500x500-jpg.webp",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "K95 RGB Platinum XT",
+      "switchType": "Cherry MX Brown",
+      "keyBacklight": "RGB",
+      "dedicatedMacroKeys": 6,
+      "wristRest": true
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 4.9, "review": "High-quality build and responsive keys." },
+      { "rating": 4.5, "review": "The wrist rest could be more comfortable." }
+    ]
+  },
+  {
+    "productName": "Logitech G Pro Wireless",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 11900,
+    "description": "High-performance wireless gaming mouse with precision and reliability.",
+    "image": "https://i.ibb.co/ygp5QWk/G-Pro.jpg",
+    "keyFeatures": {
+      "brand": "Logitech",
+      "model": "G Pro Wireless",
+      "sensorType": "Optical",
+      "dpi": "16000",
+      "wireless": true,
+      "RGB": false
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      {
+        "rating": 5,
+        "review": "Accurate and comfortable for long gaming sessions."
+      },
+      { "rating": 4.8, "review": "Wireless performance is excellent." }
+    ]
+  },
+  {
+    "productName": "ASUS ROG Strix X570-E Gaming",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 35800,
+    "description": "High-end gaming motherboard with extensive features and connectivity.",
+    "image": "https://i.ibb.co/cxs4vgz/rog-strix-x570-e-gaming-wifi-ii-mobo-05.jpg",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Strix X570-E Gaming",
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "RAMSlots": 4,
+      "maxMemory": "128GB",
+      "PCIeSlots": 3,
+      "M2Slots": 2
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.8, "review": "Great motherboard with premium features." },
+      { "rating": 4.6, "review": "Bios could use some improvements." }
+    ]
+  },
+  {
+    "productName": "Samsung 970 EVO Plus",
+    "category": "Storage",
+    "status": "In Stock",
+    "price": 8400,
+    "description": "Fast and reliable NVMe SSD for fast boot times and data access.",
+    "image": "https://example.com/images/samsung_970_evo_plus.jpg",
+    "keyFeatures": {
+      "brand": "Samsung",
+      "model": "970 EVO Plus",
+      "capacity": "!TB",
+      "interface": "M.2 PCIe 3.0",
+      "readSpeed": "3500 MB/s",
+      "writeSpeed": "3200 MB/s"
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 5, "review": "Blazing fast SSD, highly recommended." },
+      { "rating": 4.7, "review": "Good performance, but a bit pricey." }
+    ]
+  },
+  {
+    "productName": "EVGA GEFORCE RTX 3080 10GB",
+    "category": "GPU",
+    "status": "In Stock",
+    "price": 99900,
+    "description": "Powerful graphics card for gaming and content creation.",
+    "image": "https://i.ibb.co/ZcKxNDv/evga-geforce-rtx-3080-10gb-ftw3-ultra-graphics-card-001.jpg",
+    "keyFeatures": {
+      "brand": "EVGA",
+      "model": "GeForce RTX 3080",
+      "memory": "10GB GDDR6X",
+      "interface": "PCIe 4.0",
+      "clockSpeed": "1755 MHz",
+      "TDP": "320W"
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      { "rating": 5, "review": "Beast of a GPU, handles everything smoothly." },
+      { "rating": 4.8, "review": "Slightly noisy under heavy load." }
+    ]
+  },
+  {
+    "productName": "Corsair Vengeance LPX",
+    "category": "RAM",
+    "status": "In Stock",
+    "price": 5100,
+    "description": "High-performance DDR4 memory for gaming and overclocking.",
+    "image": "https://i.ibb.co/gjzqb0b/techland-Corsair-Vengeance-8-GB-DDR4-3200-MHz-Black-Heatsink-Desktop-RAMxx.jpg",
+    "keyFeatures": {
+      "brand": "Corsair",
+      "model": "Vengeance LPX",
+      "capacity": "16GB (2x8GB)",
+      "speed": "3200MHz",
+      "CASLatency": "16",
+      "memoryType": "DDR4"
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.7, "review": "Reliable RAM, works great for gaming." },
+      { "rating": 4.6, "review": "Overclocks well, but could be cheaper." }
+    ]
+  },
+  {
+    "productName": "ASUS ROG Maximus XIII Hero",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 47500,
+    "description": "High-end motherboard with advanced features and premium build.",
+    "image": "https://i.ibb.co/VxgNq1z/asus-rog-maximus-xiii-hero-motherboard-1.jpg",
+    "keyFeatures": {
+      "brand": "ASUS",
+      "model": "ROG Maximus XIII Hero",
+      "socket": "LGA1200",
+      "formFactor": "ATX",
+      "RAMSlots": 4,
+      "maxMemory": "128GB",
+      "PCIeSlots": 3,
+      "M2Slots": 3
+    },
+    "averageRating": 4.9,
+    "individualRatings": [
+      {
+        "rating": 5,
+        "review": "Top-notch motherboard with excellent performance."
+      },
+      {
+        "rating": 4.8,
+        "review": "Expensive but worth every penny for enthusiasts."
+      }
+    ]
+  },
+  {
+    "productName": "Cooler Master Hyper 212 ARGB Air CPU Cooler",
+    "category": "CPU Cooler",
+    "status": "In Stock",
+    "price": 3500,
+    "description": "Affordable and effective CPU air cooler for mid-range builds.",
+    "image": "https://example.com/images/cooler_master_hyper_212_evo.jpg",
+    "keyFeatures": {
+      "brand": "Cooler Master",
+      "model": "Hyper 212 Evo",
+      "fanSize": "120mm",
+      "heatpipes": 4,
+      "TDP": "180W"
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.8, "review": "Keeps CPU cool at a reasonable price." },
+      { "rating": 4.6, "review": "Installation instructions could be clearer." }
+    ]
+  },
+  {
+    "productName": "MONTECH SKY TWO ATX MID TOWER GAMING CASE",
+    "category": "Case",
+    "status": "In Stock",
+    "price": 9600,
+    "description": "Stylish mid-tower case with excellent airflow and cable management.",
+    "image": "https://i.ibb.co/MPt2qDP/montech-sky-two-atx-mid-tower-gaming-case-01.jpg",
+    "keyFeatures": {
+      "brand": "Montech",
+      "model": "Sky Two",
+      "formFactor": "ATX Mid Tower",
+      "sidePanel": "Tempered Glass",
+      "fansIncluded": "4x 120mm",
+      "maxGPUSize": "400mm",
+      "maxCoolerHeight": "168mm"
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      {
+        "rating": 4.9,
+        "review": "Great case with good airflow and aesthetics."
+      },
+      { "rating": 4.7, "review": "Cable management was easy with this case." }
+    ]
+  },
+  {
+    "productName": "GIGABYTE G32QC-EK 32inch 165Hz Curved Gaming Monitor",
+    "category": "Monitor",
+    "status": "In Stock",
+    "price": 43699,
+    "description": "32-inch QHD curved gaming monitor with 144Hz refresh rate.",
+    "image": "https://i.ibb.co/MMLtGCP/gigabyte-g32qc-curved-gaming-monitor.jpg",
+    "keyFeatures": {
+      "brand": "GIGABYTE",
+      "model": "G32QC-EK",
+      "displaySize": "32 inches",
+      "resolution": "2560x1440",
+      "refreshRate": "165Hz",
+      "panelType": "VA"
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.7, "review": "Good value for a large curved monitor." },
+      { "rating": 4.6, "review": "144Hz refresh rate makes games smooth." }
+    ]
+  },
+  {
+    "productName": "Razer BlackWidow Elite",
+    "category": "Keyboard",
+    "status": "In Stock",
+    "price": 9500,
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "image": "https://i.ibb.co/FKSrvCY/razer-blackwidow-elite-mechanical-gaming-keyboard-review.jpg",
+    "keyFeatures": {
+      "brand": "Razer",
+      "model": "BlackWidow Elite",
+      "switchType": "Razer Green",
+      "keyBacklight": "RGB",
+      "dedicatedMacroKeys": 5,
+      "wristRest": true
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      {
+        "rating": 4.8,
+        "review": "Tactile and responsive keys, great for gaming."
+      },
+      {
+        "rating": 4.7,
+        "review": "The wrist rest is comfortable for long sessions."
+      }
+    ]
+  },
+  {
+    "productName": "SteelSeries Rival 650",
+    "category": "Mouse",
+    "status": "In Stock",
+    "price": 9700,
+    "description": "Wireless gaming mouse with advanced features and fast charging.",
+    "image": "https://i.ibb.co/B4sdB4y/techlandbd-rival-650-wireless-mouse.jpg",
+    "keyFeatures": {
+      "brand": "SteelSeries",
+      "model": "Rival 650",
+      "sensorType": "TrueMove3+",
+      "dpi": "12000",
+      "wireless": true,
+      "RGB": true
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      {
+        "rating": 4.9,
+        "review": "Fast charging is convenient and sensor is accurate."
+      },
+      {
+        "rating": 4.7,
+        "review": "Comfortable grip for extended gaming sessions."
+      }
+    ]
+  },
+  {
+    "productName": "MSI MPG B550 Gaming Edge WiFi",
+    "category": "Motherboard",
+    "status": "In Stock",
+    "price": 19200,
+    "description": "Feature-rich gaming motherboard with built-in WiFi.",
+    "image": "https://i.ibb.co/VvQnVDX/mpg-b550-gaming-edge.jpg",
+    "keyFeatures": {
+      "brand": "MSI",
+      "model": "MPG B550 Gaming Edge WiFi",
+      "socket": "AM4",
+      "formFactor": "ATX",
+      "RAMSlots": 4,
+      "maxMemory": "128GB",
+      "PCIeSlots": 2,
+      "M2Slots": 2
+    },
+    "averageRating": 4.7,
+    "individualRatings": [
+      { "rating": 4.7, "review": "Good motherboard, WiFi works well." },
+      { "rating": 4.5, "review": "Could use more USB ports on the rear." }
+    ]
+  },
+  {
+    "productName": "Crucial P3",
+    "category": "Storage",
+    "status": "In Stock",
+    "price": 3600,
+    "description": "Reliable SATA SSD for everyday computing and gaming.",
+    "image": "https://i.ibb.co/nmtW3zv/crucial-p3-500gb-m2-2280-ssd-2.jpg",
+    "keyFeatures": {
+      "brand": "Crucial",
+      "model": "P3",
+      "capacity": "1TB",
+      "interface": "SATA",
+      "readSpeed": "560 MB/s",
+      "writeSpeed": "510 MB/s"
+    },
+    "averageRating": 4.8,
+    "individualRatings": [
+      { "rating": 5, "review": "Great SSD for upgrading older systems." },
+      { "rating": 4.8, "review": "Fast boot times and reliable performance." }
+    ]
+  }
+]
