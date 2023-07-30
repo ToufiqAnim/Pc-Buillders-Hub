@@ -11,7 +11,11 @@ const items = [
   {
     key: "1",
     label: (
-      <Link target="_blank" rel="noopener noreferrer" href="/processor">
+      <Link
+        target="_blank"
+        rel="noopener noreferrer"
+        href="/categories/processor"
+      >
         Processor
       </Link>
     ),
@@ -43,7 +47,7 @@ const items = [
   {
     key: "5",
     label: (
-      <Link target="_blank" rel="noopener noreferrer" href="/storage">
+      <Link target="_blank" rel="noopener noreferrer" href="storage">
         Storage
       </Link>
     ),
@@ -51,7 +55,7 @@ const items = [
   {
     key: "6",
     label: (
-      <Link target="_blank" rel="noopener noreferrer" href="/monitor">
+      <Link target="_blank" rel="noopener noreferrer" href="monitor">
         Monitor
       </Link>
     ),
