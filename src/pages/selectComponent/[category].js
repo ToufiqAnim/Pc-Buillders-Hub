@@ -25,7 +25,7 @@ export default CategoryComponent;
 export async function getServerSideProps(context) {
   const { params } = context;
   const res = await fetch(
-    `http://localhost:5000/productsCategory/${params?.category}`
+    `https://pc-builder-server-navy.vercel.app/productsCategory/${params?.category}`
   );
   const data = await res.json();
 

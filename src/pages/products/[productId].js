@@ -1,5 +1,6 @@
 import { Image } from "antd";
 import React from "react";
+import { AiOutlineStar } from "react-icons/ai";
 
 const ProductDetails = ({ product }) => {
   return (
@@ -15,25 +16,31 @@ const ProductDetails = ({ product }) => {
 
         <div className="flex-1">
           <span className=" py-3">{product?.category}</span>
-          <h4 className="text-3xl font-bold mt-4">{product?.productName}</h4>
-          {/* <Star
-						rating={product?.averageRating}
-						reviews={product?.reviews.length}
-					/> */}
-          <span className="badge badge-outline my-3">{product?.status}</span>
-          <p>
+          <h4 className="text-3xl font-bold my-4">{product?.productName}</h4>
+          <div className="mb-5 items-center flex gap-1">
+            <p className="font-semibold">{product?.averageRating}</p>
+            <AiOutlineStar />
+          </div>
+          <span
+            style={{
+              border: "1px solid lightgray ",
+              padding: 6,
+            }}
+          >
+            {product?.status}
+          </span>
+          <p className="mt-5">
             <strong>Price:</strong> ${product?.price}
           </p>
           <p className="mt-3">{product?.description}</p>
-          <h4 className="text-lg font-bold my-4">Key Features:</h4>
 
           <div className="mt-4">
             <div>
-              <h3 className="font-semibold text-lg">Key Features:</h3>
+              <h3 className="font-semibold text-lg mb-4">Key Features:</h3>
               <ul className="ml-3">
                 {product.keyFeatures.map((feature) => (
                   <div key={feature} className="flex items-center gap-3">
-                    <li>{feature}</li>
+                    <li className="mb-2">{feature}</li>
                   </div>
                 ))}
               </ul>
@@ -54,7 +61,7 @@ const ProductDetails = ({ product }) => {
 export default ProductDetails;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://pc-builder-server-navy.vercel.app/products");
   const data = await res.json();
 
   const paths = data.data.map((product) => ({
@@ -66,7 +73,9 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
   const { params } = context;
-  const res = await fetch(`http://localhost:5000/products/${params.productId}`);
+  const res = await fetch(
+    `https://pc-builder-server-navy.vercel.app/products/${params.productId}`
+  );
   const data = await res.json();
   console.log();
 

@@ -39,7 +39,7 @@ const HomePage = ({ products, allProducts }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("https://pc-builder-server-navy.vercel.app/products");
   const data = await res.json();
 
   const featuredProducts = data.data.slice();
