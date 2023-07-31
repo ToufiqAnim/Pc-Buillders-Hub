@@ -1,5 +1,5 @@
 # PC BUILDERS HUB
-### VERCEL [LINK](https://pc-builders-hub.vercel.app/)
+### VERCELL [(https://pc-builders-hub.vercel.app/)](https://pc-builders-hub.vercel.app/)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
