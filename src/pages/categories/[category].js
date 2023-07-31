@@ -2,8 +2,6 @@ import ProductCard from "@/components/UI/ProductCard";
 import Head from "next/head";
 
 const Category = ({ products }) => {
-  console.log(products);
-
   return (
     <>
       <Head>

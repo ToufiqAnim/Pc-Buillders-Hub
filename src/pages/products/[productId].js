@@ -69,7 +69,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
   const { params } = context;
   const res = await fetch(
-    `https://pc-builder-server-navy.vercel.app/products/${params.productId}`
+    `https://pc-builder-server-navy.vercel.app/products/${params?.productId}`
   );
   const data = await res.json();
   console.log();

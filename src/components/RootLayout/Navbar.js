@@ -58,7 +58,7 @@ const Navbar = () => {
             <Button type="primary" danger onClick={() => signOut()}>
               Logout
             </Button>
-            <Link href="/pcBuilder" className="text-white">
+            <Link href="/pc" className="text-white">
               <Button type="primary">PC Builder</Button>
             </Link>
           </items>

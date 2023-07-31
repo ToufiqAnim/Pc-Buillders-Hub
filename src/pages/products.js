@@ -12,6 +12,7 @@ const Products = ({ products }) => {
           md: 24,
           lg: 32,
         }}
+        className=""
       >
         {products.map((product) => (
           <ProductCard key={product?._id} product={product} />

@@ -7,7 +7,7 @@ const LoginPage = () => {
   return (
     <div>
       <Head>
-        <title>Next Login</title>
+        <title> Login</title>
       </Head>
       <div className={styles.form}>
         <h3>LOGIN</h3>
@@ -15,24 +15,28 @@ const LoginPage = () => {
           <GoogleOutlined
             onClick={() =>
               signIn("google", {
-                callbackUrl: "http://localhost:3000/",
+                callbackUrl: "https://pc-builders-hub.vercel.app/",
               })
             }
           />
           <GithubOutlined
             onClick={() =>
               signIn("github", {
-                callbackUrl: "http://localhost:3000/",
+                callbackUrl: "https://pc-builders-hub.vercel.app/",
               })
             }
           />
         </div>
         <hr />
         <form>
-          <label htmlFor="">Your Email</label>
-          <input type="email" />
-          <label htmlFor="">Your Password</label>
-          <input type="password" />
+          <div>
+            <label htmlFor="">Email:</label>
+            <input type="email" className="mb-5" />
+          </div>
+          <div>
+            <label htmlFor="">Password : </label>
+            <input type="password" />
+          </div>
           <Button>Login</Button>
         </form>
       </div>
