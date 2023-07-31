@@ -3,7 +3,7 @@
  This is a simple PC Builder website for PC parts and components built using Next.js. The website allows users to build their own PC by selecting different PC components. The project is categorized under the front-end category.
  
 ### Live Link: [(https://pc-builders-hub.vercel.app/)](https://pc-builders-hub.vercel.app/)
-### Server Link: [(https://github.com/ToufiqAnim/Pc-Buillders-Hub-Server)]https://github.com/ToufiqAnim/Pc-Buillders-Hub-Server
+### Server Link: [(https://github.com/ToufiqAnim/Pc-Buillders-Hub-Server)](https://github.com/ToufiqAnim/Pc-Buillders-Hub-Server)
 
 ### Website Features:
 - PC Builder tool to select and build a custom PC with various components.
