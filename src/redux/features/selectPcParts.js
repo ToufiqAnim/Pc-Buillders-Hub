@@ -1,35 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  selectedParts: [],
+  selectedComponents: [],
 };
 
-export const selectPcPartsSlice = createSlice({
-  name: "selectPcParts",
+export const pcbuilderlSlice = createSlice({
+  name: "pcBuilder",
   initialState,
   reducers: {
-    addItem: (state, action) => {
+    addComponents: (state, action) => {
       const newItem = action.payload;
       const category = newItem.category;
 
-      const existingItemIndex = state.selectedParts.findIndex(
+      const existingItemIndex = state.selectedComponents.findIndex(
         (item) => item.category === category
       );
 
       if (existingItemIndex !== -1) {
-        state.selectedParts[existingItemIndex] = newItem;
+        state.selectedComponents[existingItemIndex] = newItem;
       } else {
-        state.selectedParts.push(newItem);
+        state.selectedComponents.push(newItem);
       }
     },
-    removeItem: (state, action) => {
-      state.selectedParts = state.selectedParts.filter(
+    removeComponents: (state, action) => {
+      state.selectedComponents = state.selectedComponents.filter(
         (item) => item._id !== action.payload._id
       );
     },
   },
 });
 
-export const { addItem, removeItem } = selectPcPartsSlice.actions;
+export const { addComponents, removeComponents } = pcbuilderlSlice.actions;
 
-export default selectPcPartsSlice.reducer;
+export default pcbuilderlSlice.reducer;

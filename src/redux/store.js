@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import selectPcPartsReducer from "./features/selectPcParts";
+import pcBuilderReducer from "./features/selectPcParts";
 export const store = configureStore({
   reducer: {
-    selectPcParts: selectPcPartsReducer,
+    selectComponent: pcBuilderReducer,
   },
 });
