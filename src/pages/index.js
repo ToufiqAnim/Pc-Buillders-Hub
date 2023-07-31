@@ -3,28 +3,36 @@ import { useSession } from "next-auth/react";
 import { Row } from "antd";
 import ProductCard from "@/components/UI/ProductCard";
 import FeaturedCategory from "@/components/UI/FeaturedCategory";
+import Banner from "@/components/UI/Banner";
 const HomePage = ({ products, allProducts }) => {
   const { data: session } = useSession();
   return (
-    <div className="container mx-auto ">
-      <div className="px-4">
-        <FeaturedCategory />
+    <>
+      <Banner />
+      <div className="container mx-auto ">
+        <div className="px-4">
+          <FeaturedCategory />
+        </div>
+        <h1 className=" my-4 text-center text-xl tracking-wider">
+          Featured Products
+        </h1>
+        <p className="text-center mb-8 text-md">
+          Check & Get Your Desired Product!
+        </p>
+        <Row
+          gutter={{
+            xs: 8,
+            sm: 16,
+            md: 24,
+            lg: 32,
+          }}
+        >
+          {products.map((product) => (
+            <ProductCard key={product?._id} product={product} />
+          ))}
+        </Row>
       </div>
-      <h1 className=" my-4">Featured Products</h1>
-
-      <Row
-        gutter={{
-          xs: 8,
-          sm: 16,
-          md: 24,
-          lg: 32,
-        }}
-      >
-        {products.map((product) => (
-          <ProductCard key={product?._id} product={product} />
-        ))}
-      </Row>
-    </div>
+    </>
   );
 };
 

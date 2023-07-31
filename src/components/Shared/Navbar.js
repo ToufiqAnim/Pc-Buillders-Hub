@@ -4,39 +4,16 @@ import Link from "next/link";
 import { useSession, signOut } from "next-auth/react";
 import { DownOutlined } from "@ant-design/icons";
 import { useState } from "react";
+import { menu } from "./DropdownMenu";
 
 const Navbar = () => {
   const { data: session } = useSession();
-
-  const categories = [
-    { name: "CPU", value: "CPU" },
-    { name: "Motherboard", value: "Motherboard" },
-    { name: "RAM", value: "RAM" },
-    { name: "Power Supply", value: "Power Supply" },
-    { name: "Storage", value: "Storage" },
-    { name: "Monitor", value: "Monitor" },
-    { name: "Others", value: "Others" },
-  ];
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setIsDropdownOpen((prevState) => !prevState);
   };
-
-  const menu = (
-    <Menu>
-      {categories.map((category) => (
-        <Menu.Item key={category.name}>
-          <Link href={`/categories/${category.value}`}>
-            <p className="text-black hover:text-white hover:bg-gray-800 block px-4 py-2 transition-all">
-              {category.name}
-            </p>
-          </Link>
-        </Menu.Item>
-      ))}
-    </Menu>
-  );
 
   return (
     <Header className="flex justify-between">
