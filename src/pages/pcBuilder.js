@@ -42,7 +42,7 @@ export default function PCBuilder() {
     );
 
   const onCompleteSubmit = () => {
-    alert("Congratualtion! You have succesfully completed your build 🖥️");
+    alert("Congratualtion! You have succesfully build your PC ");
     router.push("/");
   };
 

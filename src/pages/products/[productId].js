@@ -48,12 +48,7 @@ const ProductDetails = ({ product }) => {
           </div>
         </div>
       </div>
-      <div className="my-12">
-        <h4 className="text-2xl font-bold ml-4">Reviews</h4>
-        {/* {product?.reviews.map((review, index) => (
-					<Reviews key={index} review={review} />
-				))} */}
-      </div>
+      <div className="my-12"></div>
     </div>
   );
 };
