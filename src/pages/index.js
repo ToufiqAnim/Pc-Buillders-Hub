@@ -4,6 +4,7 @@ import { Row } from "antd";
 import ProductCard from "@/components/UI/ProductCard";
 import FeaturedCategory from "@/components/UI/FeaturedCategory";
 import Banner from "@/components/UI/Banner";
+import RootLayout from "@/components/RootLayout/RootLayout";
 const HomePage = ({ products, allProducts }) => {
   const { data: session } = useSession();
   return (

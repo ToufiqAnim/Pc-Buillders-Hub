@@ -9,3 +9,31 @@
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
 }
+
+footer {
+  color: #fff;
+  text-align: center;
+  background: #333;
+  padding: 24px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer h3 {
+  margin-bottom: 16px;
+}
+
+footer p {
+  margin: 0;
+}
