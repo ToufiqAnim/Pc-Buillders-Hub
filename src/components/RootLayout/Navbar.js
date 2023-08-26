@@ -1,10 +1,10 @@
-import { Layout, Menu, Button, Dropdown, Icon } from "antd";
+import { Layout, Menu, Button, Dropdown, Icon } from 'antd';
 const { Header } = Layout;
-import Link from "next/link";
-import { useSession, signOut } from "next-auth/react";
-import { DownOutlined } from "@ant-design/icons";
-import { useState } from "react";
-import { menu } from "./DropdownMenu";
+import Link from 'next/link';
+import { useSession, signOut } from 'next-auth/react';
+import { DownOutlined } from '@ant-design/icons';
+import { useState } from 'react';
+import { menu } from './DropdownMenu';
 
 const Navbar = () => {
   const { data: session } = useSession();
@@ -38,7 +38,7 @@ const Navbar = () => {
           >
             <h3
               className={`${
-                isDropdownOpen ? "bg-gray-700" : ""
+                isDropdownOpen ? 'bg-gray-700' : ''
               } text-white ant-dropdown-link`}
               onClick={(e) => e.preventDefault()}
             >
@@ -58,13 +58,13 @@ const Navbar = () => {
             <Button type="primary" danger onClick={() => signOut()}>
               Logout
             </Button>
-            <Link href="/pc" className="text-white">
+            <Link href="/pcBuilder" className="text-white">
               <Button type="primary">PC Builder</Button>
             </Link>
           </items>
         ) : (
           <Link
-            style={{ textDecoration: "none", color: "white" }}
+            style={{ textDecoration: 'none', color: 'white' }}
             href="/login"
           >
             <items>Login</items>

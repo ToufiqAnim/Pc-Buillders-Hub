@@ -19,7 +19,7 @@ const ProductCard = ({ product }) => {
       xs={24}
     >
       <Card
-        className="mb-6 "
+        className="mb-6 w-[400px]"
         style={{ height: 550 }}
         hoverable
         cover={
